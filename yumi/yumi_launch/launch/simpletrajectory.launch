@@ -1,0 +1,6 @@
+<launch>
+
+  <node name="simpletrajectory" pkg="yumi_hw" type="simpletrajectory.py" respawn="false" output="screen">
+  </node>
+
+</launch>
