@@ -26,6 +26,7 @@ def close_grippers(arm):
     yumi.gripper_effort(arm, 15.0)
     yumi.gripper_effort(arm, 0.0)
 
+
 def open_grippers(arm):
     """Opens the grippers.
 
@@ -94,6 +95,7 @@ def run():
     pose_ee = [0.3, -0.15, 0.3, 0.0, 3.14, 3.14]
     grip_effort = -15.0
     move_and_grasp(yumi.RIGHT, pose_ee, grip_effort)
+
 
     yumi.reset_pose()
 

@@ -391,7 +391,7 @@ def plan_path(points, arm, planning_tries = 500):
     waypoints = []
     #waypoints.append(cur_arm.get_current_pose().pose)
     for point in points:
-        wpose = create_pose(point[0], point[1], point[2], point[3], point[4], point[5])
+        wpose = point
         waypoints.append(copy.deepcopy(wpose))
     #print waypoints
 
@@ -427,8 +427,7 @@ def traverse_path(points, arm, planning_tries = 500):
     succeeds and executes or if it fails to find a path for 500 tries it throws
     an exception.
 
-    :~param points: An array of waypoints which are themselves array of the form [x,y,z,r,p,y]
-    :param points: An array of waypoints which are themselves array of the form [x,y,z,r,p,y,w]
+    :param points: An array of waypoints which are themselves array of the form [x,y,z,r,p,y]
     :param arm: The selected arm (LEFT or RIGHT)
     :param planning_tries: The number of tries allowed for planning (default=100)
     :type points: float[[]]

@@ -56,8 +56,6 @@ def move_and_grasp(arm, pose_ee, grip_effort):
         print("The gripper effort values should be in the range [-20, 20]")
 
 
-
-
 def run():
     """Starts the node
 
