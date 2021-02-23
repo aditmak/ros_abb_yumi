@@ -1,4 +1,8 @@
 <launch>
   <include file = "$(find tracking_cam)/launch/camera.launch" />
   <include file = "$(find tracking_cam)/launch/camtrack.launch" />
+  <node pkg="tf2_ros" type="static_transform_publisher" name="transformer_broadcaster"
+    args="0.1 0 0.45 -0.7071 0.7071 0 0 yumi_base_link camera_link" />
+    #0 0 0 -0.2705981 0.2705981 -0.6532815 0.6532815
+
 </launch>
