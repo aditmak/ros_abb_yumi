@@ -1,0 +1,4 @@
+<launch>
+  <include file = "$(find tracking_cam)/launch/camera.launch" />
+  <include file = "$(find tracking_cam)/launch/camtrack.launch" />
+</launch>
