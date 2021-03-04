@@ -2,9 +2,9 @@
   <include file = "$(find tracking_cam)/launch/camera.launch" />
   <include file = "$(find tracking_cam)/launch/camtrack.launch" />
   <node pkg="tf2_ros" type="static_transform_publisher" name="transformer_broadcaster"
-    args="0 0 0 -0.2705981 0.2705981 -0.6532815 0.6532815 yumi_base_link camera_link" />
+    args="0 0.45 0 -0.1830127 0.5 -0.5 0.6830127 yumi_base_link camera_link" />
   <node pkg="tf2_ros" type="static_transform_publisher" name="transformer_broadcaster1"
-    args="0 0 0 1 0 0 0 ar_marker_0 follow_left" />
+    args="0 0 0.1 1 0 0 0 ar_marker_0 follow_left" />
   <node pkg="tf2_ros" type="static_transform_publisher" name="transformer_broadcaster2"
     args="0 0 0 1 0 0 0 ar_marker_3 follow_right" />
     #0 0 0 -0.2705981 0.2705981 -0.6532815 0.6532815 - 45/90

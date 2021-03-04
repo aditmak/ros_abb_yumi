@@ -79,7 +79,7 @@ def trackCallback(data):
             object_pose_l.orientation.z = object_pose_left.transform.rotation.z
             object_pose_l.orientation.w = object_pose_left.transform.rotation.w
             rospy.loginfo("Data received {}".format(object_pose_l))
-            if(object_pose_l.position.y > -0.01):
+            if(object_pose_l.position.y > -0.1):
                 move_and_grasp(yumi.LEFT, object_pose_l, -5)
                 rate.sleep()
             else:
