@@ -12,6 +12,7 @@
     #0.1 0 0.45 0 0.9848078 0 0.1736482 - top tilted 20 0/160/0
     #-0.4055798, 0.4055798, -0.579228, 0.579228 - 70 / 90
     #--0.3535534, 0.3535534, -0.6123724, 0.6123724 - 60/90
+    #--0 0.45 0 -0.1830127 0.5 -0.5 0.6830127 30/60/-90
     #--
     #There is a need to change the orientation of the ar_markers. The easiest way to
     #do it is using static_transform_publisher. Just have to assign the marker based on
