@@ -1,0 +1,33 @@
+digraph G {
+"yumi_base_link" -> "yumi_body"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1614013315.104 sec old)\nBuffer length: 0.000 sec\n"];
+"yumi_link_7_l" -> "gripper_l_base"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1614013315.104 sec old)\nBuffer length: 0.000 sec\n"];
+"yumi_link_6_l" -> "yumi_link_7_l"[label="Broadcaster: /robot_state_publisher\nAverage rate: 9.955 Hz\nMost recent transform: 1614013315.029 ( 0.075 sec old)\nBuffer length: 4.822 sec\n"];
+"yumi_link_7_r" -> "gripper_r_base"[label="Broadcaster: /robot_state_publisher\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1614013315.104 sec old)\nBuffer length: 0.000 sec\n"];
+"yumi_link_6_r" -> "yumi_link_7_r"[label="Broadcaster: /robot_state_publisher\nAverage rate: 9.941 Hz\nMost recent transform: 1614013315.079 ( 0.025 sec old)\nBuffer length: 4.929 sec\n"];
+"yumi_base_link" -> "camera_link"[label="Broadcaster: /static_transform_publisher_1614008866347558520\nAverage rate: 10000.000 Hz\nMost recent transform: 0.000 ( 1614013315.104 sec old)\nBuffer length: 0.000 sec\n"];
+"camera_link" -> "ar_marker_8"[label="Broadcaster: /ar_track_alvar\nAverage rate: 8.163 Hz\nMost recent transform: 1614013314.983 ( 0.120 sec old)\nBuffer length: 4.900 sec\n"];
+"camera_link" -> "ar_marker_7"[label="Broadcaster: /ar_track_alvar\nAverage rate: 8.163 Hz\nMost recent transform: 1614013314.983 ( 0.120 sec old)\nBuffer length: 4.900 sec\n"];
+"camera_link" -> "ar_marker_6"[label="Broadcaster: /ar_track_alvar\nAverage rate: 8.163 Hz\nMost recent transform: 1614013314.983 ( 0.120 sec old)\nBuffer length: 4.900 sec\n"];
+"camera_link" -> "ar_marker_5"[label="Broadcaster: /ar_track_alvar\nAverage rate: 8.163 Hz\nMost recent transform: 1614013314.983 ( 0.120 sec old)\nBuffer length: 4.900 sec\n"];
+"camera_link" -> "ar_marker_4"[label="Broadcaster: /ar_track_alvar\nAverage rate: 8.163 Hz\nMost recent transform: 1614013314.983 ( 0.120 sec old)\nBuffer length: 4.900 sec\n"];
+"camera_link" -> "ar_marker_3"[label="Broadcaster: /ar_track_alvar\nAverage rate: 8.163 Hz\nMost recent transform: 1614013314.983 ( 0.120 sec old)\nBuffer length: 4.900 sec\n"];
+"camera_link" -> "ar_marker_2"[label="Broadcaster: /ar_track_alvar\nAverage rate: 8.163 Hz\nMost recent transform: 1614013314.983 ( 0.120 sec old)\nBuffer length: 4.900 sec\n"];
+"camera_link" -> "ar_marker_1"[label="Broadcaster: /ar_track_alvar\nAverage rate: 8.163 Hz\nMost recent transform: 1614013314.983 ( 0.120 sec old)\nBuffer length: 4.900 sec\n"];
+"camera_link" -> "ar_marker_0"[label="Broadcaster: /ar_track_alvar\nAverage rate: 8.163 Hz\nMost recent transform: 1614013314.983 ( 0.120 sec old)\nBuffer length: 4.900 sec\n"];
+"yumi_body" -> "yumi_link_1_r"[label="Broadcaster: /robot_state_publisher\nAverage rate: 9.941 Hz\nMost recent transform: 1614013315.079 ( 0.025 sec old)\nBuffer length: 4.929 sec\n"];
+"yumi_link_1_r" -> "yumi_link_2_r"[label="Broadcaster: /robot_state_publisher\nAverage rate: 9.941 Hz\nMost recent transform: 1614013315.079 ( 0.025 sec old)\nBuffer length: 4.929 sec\n"];
+"yumi_link_3_r" -> "yumi_link_4_r"[label="Broadcaster: /robot_state_publisher\nAverage rate: 9.941 Hz\nMost recent transform: 1614013315.079 ( 0.025 sec old)\nBuffer length: 4.929 sec\n"];
+"yumi_link_2_r" -> "yumi_link_3_r"[label="Broadcaster: /robot_state_publisher\nAverage rate: 9.941 Hz\nMost recent transform: 1614013315.079 ( 0.025 sec old)\nBuffer length: 4.929 sec\n"];
+"yumi_link_4_r" -> "yumi_link_5_r"[label="Broadcaster: /robot_state_publisher\nAverage rate: 9.941 Hz\nMost recent transform: 1614013315.079 ( 0.025 sec old)\nBuffer length: 4.929 sec\n"];
+"yumi_link_5_r" -> "yumi_link_6_r"[label="Broadcaster: /robot_state_publisher\nAverage rate: 9.941 Hz\nMost recent transform: 1614013315.079 ( 0.025 sec old)\nBuffer length: 4.929 sec\n"];
+"yumi_body" -> "yumi_link_1_l"[label="Broadcaster: /robot_state_publisher\nAverage rate: 9.955 Hz\nMost recent transform: 1614013315.029 ( 0.075 sec old)\nBuffer length: 4.822 sec\n"];
+"yumi_link_1_l" -> "yumi_link_2_l"[label="Broadcaster: /robot_state_publisher\nAverage rate: 9.955 Hz\nMost recent transform: 1614013315.029 ( 0.075 sec old)\nBuffer length: 4.822 sec\n"];
+"yumi_link_3_l" -> "yumi_link_4_l"[label="Broadcaster: /robot_state_publisher\nAverage rate: 9.955 Hz\nMost recent transform: 1614013315.029 ( 0.075 sec old)\nBuffer length: 4.822 sec\n"];
+"yumi_link_2_l" -> "yumi_link_3_l"[label="Broadcaster: /robot_state_publisher\nAverage rate: 9.955 Hz\nMost recent transform: 1614013315.029 ( 0.075 sec old)\nBuffer length: 4.822 sec\n"];
+"yumi_link_4_l" -> "yumi_link_5_l"[label="Broadcaster: /robot_state_publisher\nAverage rate: 9.955 Hz\nMost recent transform: 1614013315.029 ( 0.075 sec old)\nBuffer length: 4.822 sec\n"];
+"yumi_link_5_l" -> "yumi_link_6_l"[label="Broadcaster: /robot_state_publisher\nAverage rate: 9.955 Hz\nMost recent transform: 1614013315.029 ( 0.075 sec old)\nBuffer length: 4.822 sec\n"];
+edge [style=invis];
+ subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
+"Recorded at time: 1614013315.104"[ shape=plaintext ] ;
+ }->"yumi_base_link";
+}
